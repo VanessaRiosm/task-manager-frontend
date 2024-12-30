@@ -40,7 +40,7 @@ const Home = () => {
         <FilterBar setFilter={setFilter} />
       </div>
       <div className='flex justify-center items-start'>
-        <div className='w-2/3'>
+        <div>
           <TaskList tasks={filteredTasks} />
         </div>
       </div>
